@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Bayon&family=Bebas+Neue&family=Birthstone+Bounce:wght@500&family=Cherish&family=Fuggles&family=Grechen+Fuemen&family=Kaushan+Script&family=Mrs+Saint+Delafield&family=Ms+Madi&display=swap");
+/* font-family: 'Bayon', sans-serif;
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Birthstone Bounce', cursive;
+font-family: 'Cherish', cursive;
+font-family: 'Fuggles', cursive;
+font-family: 'Grechen Fuemen', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Mrs Saint Delafield', cursive;
+font-family: 'Ms Madi', cursive;*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Define the style for webkit browsers (Chrome, Safari) */
+/* Customize these styles based on your design preferences */
+
+/* Track */
+::-webkit-scrollbar {
+  width: 12px;
+  scroll-behavior: smooth;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 6px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.circle1 {
+  background-image: linear-gradient(
+    to right,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+}
+
+.circle2 {
+  background-image: linear-gradient(
+    to right,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+}
+.text {
+  background: linear-gradient(
+    to right,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+  background-clip: text;
+  -webkit-background-clip: text; /* For older Safari/WebKit browsers */
+  color: transparent;
+}
+.navlink {
+  position: relative;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out; /* Transition color changes */
+}
+
+.navlink::after {
+  content: "";
+  position: absolute;
+  bottom: -2px; /* Adjust the distance of the underline as needed */
+  left: 0;
+  width: 100%;
+  height: 3px; /* Adjust the thickness of the underline as needed */
+  background-color: transparent; /* Initially transparent */
+  transition: background-color 0.3s ease-in-out; /* Transition underline color */
+}
+
+.navlink:hover {
+  color: #000; /* Change text color on hover */
+}
+
+.navlink:hover::after {
+  background-color: rgb(255, 65, 65); /* Change underline color on hover */
+}
+
+.qualification {
+  transform:
+    perspective(800px)
+    rotateY(0deg) scale(0.9)
+    rotateX(10deg);
+  filter: blur(4px);
+  opacity: 0.5;
+  transition: 0.6s ease all;
+}
+.qualification:hover {
+  transform:
+    perspective(800px)
+    rotateY(-15deg)
+    translateY(-50px)
+    rotateX(10deg)
+    scale(1);
+  filter: blur(0);
+  opacity: 1;
+}
