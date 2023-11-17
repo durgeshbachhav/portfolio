@@ -22,7 +22,7 @@ const Home = () => {
         </h1>
         <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">
           I'm a{" "}
-          <span style={{ fontFamily: "`" }} className="text">
+          <span style={{ fontFamily: "`" }} className="text qualification">
             Full-Stack Developer
           </span>
         </h1>
