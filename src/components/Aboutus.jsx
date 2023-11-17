@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-const resume = "https://durgesh-bachhav.vercel.app/Durgesh_Bachhav.pdf";
+const resume = "https://durgesh-bachhav.vercel.app/durgesh.pdf";
 
 const AboutUs = () => {
   const downloadfile = (url) => {
