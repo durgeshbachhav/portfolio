@@ -49,7 +49,7 @@ const AboutUs = () => {
             </div>
             <div className="mt-2">
               <div
-                href="/public/Durgesh_Bachhav.pdf"
+                href="/public/durgesh.pdf"
                 download="Durgesh_Bachhav_CV.pdf"
                 className="text-center w-60 py-2 rounded-md transition ease-in-out delay-150 px-10 bg-pink-500 hover:-translate-y-1 hover:scale-110 hover:bg-pink-600 duration-300 text-white font-semibold"
                 onClick={() => {
