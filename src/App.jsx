@@ -62,7 +62,7 @@ function App() {
       </div>
       {/* div for bg styling */}
       <div className="hidden lg:block absolute top-10 right-10 w-40 h-40 rounded-full circle2"></div>
-      <div className="hidden lg:block absolute top-20 left-10 w-40 h-40 rounded-full circle2 animate-bounce"></div>
+      <div className="hidden lg:block absolute top-10 left-10 w-40 h-40 rounded-full circle2 animate-bounce"></div>
     </div>
   );
 }
